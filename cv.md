@@ -7,19 +7,24 @@ permalink: /cv/
 ## Resume / CV
 
 <div class="cv-card">
-A concise version of my current CV is available as PDF:
+The latest CV is available as a PDF:
 
 - [Download PDF CV](/assets/Jubilee_Tan_CV.pdf)
 </div>
 
-## Snapshot
+## Profile Snapshot
 
 <div class="cv-card">
-<span class="cv-chip">Healthcare Data Engineering</span>
-<span class="cv-chip">Research Informatics</span>
-<span class="cv-chip">EHR Cohort Pipelines</span>
-<span class="cv-chip">Phenotype Workflow Design</span>
-<span class="cv-chip">REDCap Governance Automation</span>
+<span class="cv-chip">13+ Years Professional Experience</span>
+<span class="cv-chip">Senior Application Developer (VUMC)</span>
+<span class="cv-chip">All of Us Research Program Analytics/QC</span>
+<span class="cv-chip">Automated Reporting at Scale (200+ weekly)</span>
+<span class="cv-chip">REDCap Research Operations Tooling</span>
 </div>
 
-> Note: If the PDF link is unavailable, please contact me directly for the latest version.
+## Current Role Focus
+
+- Research cohort analytics and quality control workflows
+- EHR data validation and chart-review support
+- Automation of recurring reporting pipelines
+- REDCap-based solutions for consent, reminders, randomization, and data integration

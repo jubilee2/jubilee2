@@ -1,29 +1,28 @@
 ---
-title: Pregnancy Episode / Cohort Pipeline
-summary: Built a reproducible longitudinal pipeline for pregnancy episode identification using hybrid heuristics and NLP signals.
-order: 1
+title: Automated Reporting Platform for Clinical Research
+summary: Designed and expanded an automated reporting system that scaled to support 200+ reports per week.
+order: 2
 tools:
-  - PySpark
+  - R Markdown
+  - Python
   - SQL
-  - NLP
-  - Databricks
+  - Scheduling Automation
+  - Email Delivery
 ---
 
 ## Problem
 
-Clinical and research teams needed reliable pregnancy episode timelines from fragmented EHR events.
+Research teams required recurring reports to be generated and delivered on schedule with minimal manual intervention.
 
 ## Approach
 
-- Combined temporal heuristics with NLP-derived evidence to infer episode boundaries
-- Implemented Spark-based transformation stages for scale and reproducibility
-- Added QA checks for overlap resolution, edge cases, and date consistency
+- Built a chronological scheduling workflow for coded and R Markdown reports
+- Implemented whitelist-based report email distribution
+- Added dynamic scheduling support for recurring delivery requests
+- Continued optimization to increase reliability and throughput over time
 
 ## Impact
 
-- Reduced manual curation burden for cohort preparation
-- Improved consistency of episode definitions across downstream analyses
-
-## Links
-
-- Technical details available on request
+- Scaled to more than 200 reports per week
+- Reduced manual reporting overhead and improved consistency
+- Recognized with the VUMC Department of Biostatistics IT Innovation Award (2022)

@@ -1,29 +1,26 @@
 ---
-title: All of Us / SD Phenotype Pulls at Scale
-summary: Designed scalable and reproducible phenotype extraction workflows across large research datasets.
-order: 2
+title: All of Us & Synthetic Derivative Cohort Analytics
+summary: Supported large-scale cohort analytics and data validation workflows for national and institutional research datasets.
+order: 1
 tools:
   - BigQuery
   - Databricks
   - SQL
   - Python
+  - Jupyter
 ---
 
-## Problem
+## Scope
 
-Research teams required repeatable phenotype pulls across large datasets with transparent logic and auditability.
+Contributed to analytics and quality-control workflows for large research cohorts, including the NIH All of Us program and Vanderbilt's Synthetic Derivative environment.
 
-## Approach
+## What I Built
 
-- Built parameterized SQL + pipeline patterns for consistent cohort extraction
-- Standardized definitions, quality checks, and handoff documentation
-- Automated recurring extract-refresh workflows for iterative research cycles
+- Reproducible query patterns for cohort pulls and data checks
+- Validation workflows to improve confidence in researcher-facing datasets
+- Documentation and handoff patterns for iterative research requests
 
 ## Impact
 
-- Accelerated time-to-cohort for analytics and discovery work
-- Improved reproducibility and confidence in phenotype definitions
-
-## Links
-
-- Methodology summary available on request
+- Helped accelerate time-to-cohort for investigator-led studies
+- Improved repeatability and transparency of extraction logic across requests

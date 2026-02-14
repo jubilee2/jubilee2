@@ -1,29 +1,34 @@
 ---
-title: REDCap Role Automation / Governance
-summary: Automated REDCap role and permission operations to support compliant, scalable study administration.
+title: REDCap External Tooling & Governance Automation
+summary: Built REDCap-centered solutions for consent, reminders, randomization, operational monitoring, and data integration.
 order: 3
 tools:
-  - R
-  - rcWRAP
-  - rcELves
   - REDCap API
+  - Ruby on Rails
+  - Node.js
+  - Twilio API
+  - FHIR
 ---
 
-## Problem
+## Scope
 
-Managing REDCap permissions across many projects was time-consuming and error-prone.
+Implemented multiple REDCap-integrated services to support clinical research operations and participant engagement.
 
-## Approach
+## What I Built
 
-- Implemented role automation workflows through REDCap API wrappers
-- Added validation checks for role consistency and governance constraints
-- Built reusable scripts to support repeatable permission management tasks
+- External support applications for:
+  - Electronic consent workflows
+  - Follow-up and missing-survey reminders
+  - Coordinator notifications
+  - Randomization support
+  - Participant status/health index monitoring dashboards
+  - Data synchronization between systems
+  - Drug delivery tracking integrations
+- Messaging-based participant interaction workflows using Twilio
+- REDCap Clinical Data Pull configuration using FHIR-based records integration
 
 ## Impact
 
-- Decreased administrative overhead for study teams
-- Increased confidence in role assignment consistency and compliance posture
-
-## Links
-
-- Public package references: `rcWRAP`, `rcELves`
+- Improved operational efficiency for study teams
+- Increased consistency of participant communication workflows
+- Strengthened integration between research data capture and clinical source systems

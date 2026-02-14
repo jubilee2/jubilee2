@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Below are selected projects across healthcare data engineering, research informatics, and scientific modeling.
+Selected projects representing production-facing work in research data platforms, cohort analytics, and clinical study operations.
 
 {% assign sorted_projects = site.projects | sort: "order" %}
 {% for project in sorted_projects %}

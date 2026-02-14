@@ -4,8 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-I’m happy to connect about collaborations, consulting, and full-time opportunities.
+I’m open to collaborations and opportunities in research informatics, healthcare data engineering, and clinical data platform development.
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
+- **Location:** Nashville, TN
 - **GitHub:** [github.com/jubilee2](https://github.com/jubilee2)
+- **CV:** [Download PDF](/assets/Jubilee_Tan_CV.pdf)
+
+If you would like to connect professionally, please reach out via GitHub.
