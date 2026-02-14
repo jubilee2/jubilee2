@@ -164,6 +164,37 @@ table th {
   margin: 0 0 0.6rem;
 }
 
+
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #bfd5ea;
+  border-radius: 999px;
+  background: #f0f7ff;
+  color: #0f4f86;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.hero-cta:hover,
+.hero-cta:focus {
+  background: #e0f1ff;
+  border-color: #8ab8dd;
+  color: #0a3f6e;
+}
+
 @media (max-width: 700px) {
   .page-content .wrapper {
     padding: 1rem;
@@ -174,6 +205,10 @@ table th {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
   }
 
   .cv-snapshot-grid {
