@@ -14,7 +14,7 @@ Primary goals:
 - Avoid adding dependencies that GitHub Pages won’t build by default.
 
 ## Content rules
-- Do NOT include any sensitive or internal-only information (e.g., patient data, private VUMC details, internal URLs).
+- Do NOT include any sensitive or internal-only information (e.g., patient data, private details, internal URLs).
 - If a project is not public, summarize at a high level and omit private links.
 - Keep tone: professional, concise, technical.
 
