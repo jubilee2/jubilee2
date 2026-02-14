@@ -8,6 +8,9 @@ tools:
   - SQL
   - Scheduling Automation
   - Email Delivery
+home_metrics:
+  - Scaled reliable delivery to 200+ reports per week
+  - Pre-run checks for data freshness and routing quality
 ---
 
 ## Problem

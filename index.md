@@ -26,18 +26,43 @@ permalink: /
 
 ## Highlights
 
-- 13+ years of professional software and data platform experience
-- Senior Application Developer at Vanderbilt University Medical Center (Center for Quantitative Sciences)
-- Contributor to NIH All of Us Research Program analytics and QC workflows
-- Built and scaled automated reporting infrastructure supporting 200+ reports per week
-- Delivered REDCap external support tooling for consent, reminders, randomization, data sync, and operational monitoring
+<div class="home-card-grid home-card-grid--highlights">
+  <article class="home-card">
+    <h3>Years</h3>
+    <p class="home-card__metric">13+ years</p>
+    <p>Professional software and data platform experience.</p>
+  </article>
+  <article class="home-card">
+    <h3>Platforms</h3>
+    <p class="home-card__metric">BigQuery · Databricks · REDCap</p>
+    <p>Cross-platform delivery for cohort analytics, automation, and integrations.</p>
+  </article>
+  <article class="home-card">
+    <h3>Impact</h3>
+    <p class="home-card__metric">200+ reports/week</p>
+    <p>Scaled recurring reporting and operational workflows for research teams.</p>
+  </article>
+</div>
 
 ## Featured Projects
 
 {% assign featured_projects = site.projects | sort: "order" | slice: 0, 3 %}
-{% for project in featured_projects %}
-{{ forloop.index }}. [{{ project.title }}]({{ project.url | relative_url }}) — {{ project.summary }}
-{% endfor %}
+<div class="home-card-grid">
+  {% for project in featured_projects %}
+  <article class="home-card home-card--project">
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    {% if project.home_metrics and project.home_metrics.size > 0 %}
+    <ul>
+      {% for metric in project.home_metrics limit: 2 %}
+      <li>{{ metric }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>{{ project.summary }}</p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
 
 ## Quick Links
 
