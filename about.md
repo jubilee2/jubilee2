@@ -6,8 +6,8 @@ permalink: /about/
 
 I am a Senior Application Developer at Vanderbilt University Medical Center (Center for Quantitative Sciences), focused on research informatics and healthcare data engineering.
 
-**Professional name:** Jubilee Tan  
-**Formal name:** HSI-NIEN TAN
+- **Professional name:** Jubilee Tan  
+- **Formal name:** HSI-NIEN TAN
 
 My work centers on transforming clinical and research data into reproducible, analysis-ready assets that support investigators, statisticians, and study teams.
 
