@@ -5,9 +5,17 @@ title: Home
 
 # Jubilee Tan
 
-**Senior Application Developer | Research Informatics & Healthcare Data Engineering**
-
-I build reliable data systems for clinical and biomedical research, with experience across large-scale cohort analytics, automated reporting, and REDCap-based study operations.
+<div class="home-hero">
+  <img
+    class="home-avatar"
+    src="{{ '/assets/e379bc5f-b6cd-406e-8694-de4ddaf624a4.png' | relative_url }}"
+    alt="Headshot of Jubilee Tan"
+  />
+  <div>
+    <p><strong>Senior Application Developer | Research Informatics & Healthcare Data Engineering</strong></p>
+    <p>I build reliable data systems for clinical and biomedical research, with experience across large-scale cohort analytics, automated reporting, and REDCap-based study operations.</p>
+  </div>
+</div>
 
 ## Highlights
 
