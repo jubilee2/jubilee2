@@ -39,6 +39,12 @@ body {
   color: var(--brand-teal) !important;
 }
 
+
+.site-nav .page-link.is-current {
+  color: var(--brand-teal) !important;
+  border-bottom: 2px solid var(--brand-teal);
+}
+
 .page-content {
   padding-top: 1.5rem;
 }
