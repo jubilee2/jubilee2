@@ -20,7 +20,7 @@ permalink: /
       <a class="hero-cta" href="https://github.com/jubilee2" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a class="hero-cta" href="mailto:jubilee2@gmail.com">Email</a>
     </div>
-    <p>I build usable, maintainable data products and workflows that translate research and clinical requirements into reliable delivery, emphasizing data quality, traceability, and cross-platform integration.</p>
+    <p>I build reliable data systems for clinical and biomedical research, with experience across large-scale cohort analytics, automated reporting, and REDCap-based study operations.</p>
   </div>
 </div>
 
