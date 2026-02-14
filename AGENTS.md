@@ -27,7 +27,7 @@ Preferred pages:
 - contact.md
 
 If adding project detail pages:
-- Put them under `_projects/` (collection) OR `projects/` (folder), but keep it consistent.
+- Put them under `_projects/` as a Jekyll collection. This is the preferred method for consistency.
 
 If adding blog posts:
 - Put them under `_posts/` with `YYYY-MM-DD-title.md`.
