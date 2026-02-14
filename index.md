@@ -5,29 +5,27 @@ title: Home
 
 # Jubilee Tan
 
-**Healthcare Data Engineer & Research Informatics**  
-Building reproducible EHR pipelines (Spark/BigQuery) and data governance tooling (REDCap).
+**Senior Application Developer | Research Informatics & Healthcare Data Engineering**
 
-I design and operationalize healthcare data workflows that improve cohort discovery, reporting quality, and clinical research readiness.
+I build reliable data systems for clinical and biomedical research, with experience across large-scale cohort analytics, automated reporting, and REDCap-based study operations.
 
-## Focus Areas
+## Highlights
 
-- Scalable cohort extraction and phenotype pipelines in Spark/Databricks/BigQuery
-- Temporal EHR event modeling, overlap resolution, and QA automation
-- REDCap access governance and role automation for compliant research operations
-
-## What I’m Looking For
-
-Open to collaborations and roles where data engineering, translational research, and trustworthy analytics intersect.
+- 13+ years of professional software and data platform experience
+- Senior Application Developer at Vanderbilt University Medical Center (Center for Quantitative Sciences)
+- Contributor to NIH All of Us Research Program analytics and QC workflows
+- Built and scaled automated reporting infrastructure supporting 200+ reports per week
+- Delivered REDCap external support tooling for consent, reminders, randomization, data sync, and operational monitoring
 
 ## Featured Projects
 
-1. [Pregnancy Episode / Cohort Pipeline](/projects/pregnancy-pipeline/) — longitudinal episode construction with PySpark + NLP + rules.
-2. [All of Us Phenotype Pulls at Scale](/projects/all-of-us-phenotype-pulls/) — reproducible cohort extraction patterns in BigQuery/Databricks.
-3. [REDCap Role Automation & Governance](/projects/redcap-automation/) — scalable permission workflows using `rcWRAP` + `rcELves`.
+1. [Pregnancy Episode / Cohort Pipeline](/projects/pregnancy-pipeline/) — longitudinal EHR episode construction and QA workflow design.
+2. [All of Us Phenotype Pulls at Scale](/projects/all-of-us-phenotype-pulls/) — reproducible extraction and validation patterns for large research cohorts.
+3. [REDCap Role Automation & Governance](/projects/redcap-automation/) — compliance-aware automation for research operations.
 
 ## Quick Links
 
-- [Download CV](/assets/Jubilee_Tan_CV.pdf)
-- [GitHub](https://github.com/jubilee2)
-- [LinkedIn](https://www.linkedin.com)
+- [About](/about/)
+- [Projects](/projects/)
+- [CV](/cv/)
+- [Contact](/contact/)
