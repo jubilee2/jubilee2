@@ -14,6 +14,12 @@ permalink: /
   />
   <div>
     <p><strong>Senior Application Developer | Research Informatics & Healthcare Data Engineering</strong></p>
+    <div class="hero-cta-group" aria-label="Primary contact links">
+      <a class="hero-cta" href="{{ '/assets/Jubilee_Tan_CV.pdf' | relative_url }}">Download CV (PDF)</a>
+      <a class="hero-cta" href="https://www.linkedin.com/in/jubilee-tan-17b642109/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="hero-cta" href="https://github.com/jubilee2" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="hero-cta" href="mailto:jubilee2@gmail.com">Email</a>
+    </div>
     <p>I build reliable data systems for clinical and biomedical research, with experience across large-scale cohort analytics, automated reporting, and REDCap-based study operations.</p>
   </div>
 </div>
