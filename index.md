@@ -27,13 +27,13 @@ title: Home
 
 ## Featured Projects
 
-1. [Pregnancy Episode / Cohort Pipeline](/projects/pregnancy-pipeline/) — longitudinal EHR episode construction and QA workflow design.
-2. [All of Us Phenotype Pulls at Scale](/projects/all-of-us-phenotype-pulls/) — reproducible extraction and validation patterns for large research cohorts.
-3. [REDCap Role Automation & Governance](/projects/redcap-automation/) — compliance-aware automation for research operations.
+1. [Pregnancy Episode / Cohort Pipeline]({{ '/projects/pregnancy-pipeline/' | relative_url }}) — longitudinal EHR episode construction and QA workflow design.
+2. [All of Us & Synthetic Derivative Cohort Analytics]({{ '/projects/all-of-us-phenotype-pulls/' | relative_url }}) — reproducible extraction and validation patterns for large research cohorts.
+3. [REDCap External Tooling & Governance Automation]({{ '/projects/redcap-automation/' | relative_url }}) — compliance-aware automation for research operations.
 
 ## Quick Links
 
-- [About](/about/)
-- [Projects](/projects/)
-- [CV](/cv/)
-- [Contact](/contact/)
+- [About]({{ '/about/' | relative_url }})
+- [Projects]({{ '/projects/' | relative_url }})
+- [CV]({{ '/cv/' | relative_url }})
+- [Contact]({{ '/contact/' | relative_url }})
