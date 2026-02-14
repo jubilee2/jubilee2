@@ -141,8 +141,8 @@ table th {
   height: 132px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #d8e4f1;
-  box-shadow: 0 4px 14px rgba(21, 59, 99, 0.12);
+  border: 2px solid var(--brand-border);
+  box-shadow: 0 4px 14px #153b631f;
   flex-shrink: 0;
 }
 
