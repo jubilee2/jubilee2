@@ -1,0 +1,26 @@
+title: Jubilee Tan
+description: >-
+  Healthcare Data Engineer and Research Informatics professional building reproducible
+  EHR pipelines, scalable phenotype extraction workflows, and REDCap governance tooling.
+url: "https://jubilee2.github.io"
+baseurl: ""
+theme: minima
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - cv.md
+  - contact.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
