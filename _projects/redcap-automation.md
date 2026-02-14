@@ -8,6 +8,9 @@ tools:
   - Node.js
   - Twilio API
   - FHIR
+home_metrics:
+  - Support tooling for consent, reminders, randomization, and sync
+  - Batch + near-real-time pipelines for cross-system updates
 ---
 
 ## Scope

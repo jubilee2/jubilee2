@@ -8,6 +8,9 @@ tools:
   - SQL
   - Python
   - Jupyter
+home_metrics:
+  - Multi-million-row longitudinal cohort processing
+  - Recurring cohort refresh support (daily to weekly)
 ---
 
 ## Scope
