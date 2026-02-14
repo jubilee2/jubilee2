@@ -24,8 +24,6 @@ The latest CV is available as a PDF: <a href="{{ '/assets/Jubilee_Tan_CV.pdf' | 
 
 ## Current Role Focus
 
-I build usable, maintainable data products and workflows that translate research and clinical requirements into reliable delivery—emphasizing data quality, traceability, and cross-platform integration. I also draw on years of full-stack delivery experience to connect requirement discovery, workflow design, and implementation into systems that keep running in real operations.
-
 - Large-scale research data analytics and quality control (QC/QA)
 - EHR-derived cohort extraction, validation, and data reconciliation workflows
 - Automation of recurring reporting and delivery pipelines (reproducible pipelines)
