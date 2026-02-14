@@ -13,7 +13,7 @@ My work centers on transforming clinical and research data into reproducible, an
 
 ## Professional Focus
 
-I build usable, maintainable data products and workflows that translate research and clinical requirements into reliable delivery—emphasizing data quality, traceability, and cross-platform integration. I also draw on years of full-stack delivery experience to connect requirement discovery, workflow design, and implementation into systems that keep running in real operations.
+I build usable, maintainable data products and workflows that translate research and clinical requirements into reliable delivery—emphasizing data quality, traceability, and cross-platform integration. I also draw on years of full-stack delivery experience to connect requirement discovery, workflow design, and implementation into robust and reliable operational systems.
 
 - Large-scale research data analytics and quality control (QC/QA)
 - EHR-derived cohort extraction, validation, and data reconciliation workflows
