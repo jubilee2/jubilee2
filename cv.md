@@ -24,7 +24,8 @@ The latest CV is available as a PDF: <a href="{{ '/assets/Jubilee_Tan_CV.pdf' | 
 
 ## Current Role Focus
 
-- Research cohort analytics and quality control workflows
-- EHR data validation and chart-review support
-- Automation of recurring reporting pipelines
-- REDCap-based solutions for consent, reminders, randomization, and data integration
+- Large-scale research data analytics and quality control (QC/QA)
+- EHR-derived cohort extraction, validation, and data reconciliation workflows
+- Automation of recurring reporting and delivery pipelines (reproducible pipelines)
+- REDCap platform implementation and external support tooling
+- Research operations enablement through reliable APIs and platform integration
