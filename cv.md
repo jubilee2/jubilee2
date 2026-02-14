@@ -13,11 +13,13 @@ The latest CV is available as a PDF: <a href="{{ '/assets/Jubilee_Tan_CV.pdf' | 
 ## Profile Snapshot
 
 <div class="cv-card">
-<span class="cv-chip">13+ Years Professional Experience</span>
-<span class="cv-chip">Senior Application Developer (VUMC)</span>
-<span class="cv-chip">All of Us Research Program Analytics/QC</span>
-<span class="cv-chip">Automated Reporting at Scale (200+ weekly)</span>
-<span class="cv-chip">REDCap Research Operations Tooling</span>
+  <ul class="cv-snapshot-grid">
+    <li>13+ Years Professional Experience</li>
+    <li>Senior Application Developer (VUMC)</li>
+    <li>All of Us Research Program Analytics/QC</li>
+    <li>Automated Reporting at Scale (200+ weekly)</li>
+    <li>REDCap Research Operations Tooling</li>
+  </ul>
 </div>
 
 ## Current Role Focus

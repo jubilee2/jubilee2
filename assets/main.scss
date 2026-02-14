@@ -129,6 +129,20 @@ table th {
   font-size: 0.85rem;
 }
 
+.cv-snapshot-grid {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem 1.1rem;
+}
+
+.cv-snapshot-grid li {
+  margin: 0;
+  color: var(--brand-slate);
+}
+
 .home-hero {
   display: flex;
   align-items: flex-start;
@@ -160,6 +174,10 @@ table th {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .cv-snapshot-grid {
+    grid-template-columns: 1fr;
   }
 }
 
