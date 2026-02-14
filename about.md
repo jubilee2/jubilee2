@@ -16,10 +16,10 @@ My recent work spans pregnancy episode modeling, phenotype extraction at scale, 
 
 ## Stack
 
-**Languages:** Python, SQL, R  
-**Data Platforms:** Spark, Databricks, BigQuery  
-**Research/Data Systems:** REDCap, EHR-derived data marts  
-**Workflow Practices:** QA pipelines, documentation, automation, reproducibility
+- **Languages:** Python, SQL, R
+- **Data Platforms:** Spark, Databricks, BigQuery
+- **Research/Data Systems:** REDCap, EHR-derived data marts
+- **Workflow Practices:** QA pipelines, documentation, automation, reproducibility
 
 ## Now
 
