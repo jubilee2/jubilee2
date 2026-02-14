@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Home
+layout: default
+title: Jubilee Tan
+permalink: /
 ---
 
 # Jubilee Tan
