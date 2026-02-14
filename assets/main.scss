@@ -1,0 +1,137 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --brand-navy: #153b63;
+  --brand-teal: #0b8f8f;
+  --brand-slate: #334155;
+  --brand-soft: #f4f8fc;
+  --brand-border: #d9e3ef;
+  --brand-link: #115ea3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--brand-slate);
+  background: linear-gradient(180deg, #ffffff 0%, var(--brand-soft) 100%);
+  line-height: 1.65;
+}
+
+.site-header {
+  border-top: 5px solid var(--brand-navy);
+  border-bottom: 1px solid var(--brand-border);
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.site-title,
+.site-nav .page-link {
+  color: var(--brand-navy) !important;
+  font-weight: 600;
+}
+
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  color: var(--brand-teal) !important;
+}
+
+.page-content {
+  padding-top: 1.5rem;
+}
+
+.page-content .wrapper {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(21, 59, 99, 0.06);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--brand-navy);
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  border-bottom: 2px solid #e7eff7;
+  padding-bottom: 0.35rem;
+}
+
+a {
+  color: var(--brand-link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover,
+a:focus {
+  color: var(--brand-teal);
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.35rem;
+}
+
+blockquote {
+  border-left: 4px solid var(--brand-teal);
+  color: #4a5568;
+  background: #f8fbff;
+  padding: 0.8rem 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid var(--brand-border);
+  padding: 0.55rem 0.7rem;
+}
+
+table th {
+  background: #eff6fd;
+  color: var(--brand-navy);
+}
+
+.site-footer {
+  border-top: 1px solid var(--brand-border);
+  background: #ffffff;
+}
+
+.cv-card {
+  background: #ffffff;
+  border: 1px solid #dbe7f3;
+  border-left: 4px solid var(--brand-teal);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(21, 59, 99, 0.06);
+}
+
+.cv-chip {
+  display: inline-block;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  padding: 0.2rem 0.55rem;
+  background: #e9f4fb;
+  border: 1px solid #c8dff2;
+  border-radius: 999px;
+  color: #114a77;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 700px) {
+  .page-content .wrapper {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}
