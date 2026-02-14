@@ -7,9 +7,7 @@ permalink: /cv/
 ## Resume / CV
 
 <div class="cv-card">
-The latest CV is available as a PDF:
-
-- [Download PDF CV]({{ '/assets/Jubilee_Tan_CV.pdf' | relative_url }})
+The latest CV is available as a PDF: <a href="{{ '/assets/Jubilee_Tan_CV.pdf' | relative_url }}">Download PDF CV</a>
 </div>
 
 ## Profile Snapshot
