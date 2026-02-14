@@ -16,13 +16,15 @@ Research teams required recurring reports to be generated and delivered on sched
 
 ## Approach
 
-- Built a chronological scheduling workflow for coded and R Markdown reports
-- Implemented whitelist-based report email distribution
-- Added dynamic scheduling support for recurring delivery requests
+- Built a chronological scheduling workflow for coded and R Markdown reports with fixed and dynamic delivery cadences
+- Implemented whitelist-based report email distribution with recipient validation and delivery audit logs
+- Added pre-run data freshness and parameter validation checks to catch stale inputs before report generation
+- Standardized outputs into reusable parameterized report templates (PDF/HTML)
 - Continued optimization to increase reliability and throughput over time
 
 ## Impact
 
-- Scaled to more than 200 reports per week
+- Scaled to more than 200 reports per week with reliable recurring delivery
 - Reduced manual reporting overhead and improved consistency
+- Improved delivery reliability by surfacing data/input and routing issues before distribution
 - Recognized with the VUMC Department of Biostatistics IT Innovation Award (2022)

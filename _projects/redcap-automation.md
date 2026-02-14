@@ -26,9 +26,12 @@ Implemented multiple REDCap-integrated services to support clinical research ope
   - Drug delivery tracking integrations
 - Messaging-based participant interaction workflows using Twilio
 - REDCap Clinical Data Pull configuration using FHIR-based records integration
+- Scheduled and event-driven integration pipelines (daily batch plus near-real-time triggers) for cross-system updates
+- QA and governance checks for consent-state transitions, survey-window timing, randomization constraints, and interface auditability
+- Reusable operator-facing outputs including coordinator dashboards, reminder queues, and delivery tracking views
 
 ## Impact
 
-- Improved operational efficiency for study teams
+- Improved operational efficiency for multi-study teams through standardized workflows
 - Increased consistency of participant communication workflows
 - Strengthened integration between research data capture and clinical source systems
