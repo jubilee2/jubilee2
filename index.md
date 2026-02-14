@@ -20,7 +20,7 @@ permalink: /
 
 ## Highlights
 
-<div class="home-card-grid home-card-grid--highlights">
+<div class="home-card-grid">
   <article class="home-card">
     <h3>Years</h3>
     <p class="home-card__metric">13+ years</p>
