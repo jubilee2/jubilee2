@@ -218,10 +218,10 @@ table th {
   margin: 0;
 }
 
-.home-card__metric {
+.home-card p.home-card__metric {
   color: var(--brand-navy);
   font-weight: 700;
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 0.35rem;
 }
 
 .home-card--project ul {
