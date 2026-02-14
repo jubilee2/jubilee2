@@ -27,9 +27,10 @@ title: Home
 
 ## Featured Projects
 
-1. [Pregnancy Episode / Cohort Pipeline]({{ '/projects/pregnancy-pipeline/' | relative_url }}) — longitudinal EHR episode construction and QA workflow design.
-2. [All of Us & Synthetic Derivative Cohort Analytics]({{ '/projects/all-of-us-phenotype-pulls/' | relative_url }}) — reproducible extraction and validation patterns for large research cohorts.
-3. [REDCap External Tooling & Governance Automation]({{ '/projects/redcap-automation/' | relative_url }}) — compliance-aware automation for research operations.
+{% assign featured_projects = site.projects | sort: "order" | slice: 0, 3 %}
+{% for project in featured_projects %}
+{{ forloop.index }}. [{{ project.title }}]({{ project.url | relative_url }}) — {{ project.summary }}
+{% endfor %}
 
 ## Quick Links
 
