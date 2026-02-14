@@ -9,7 +9,7 @@ permalink: /cv/
 <div class="cv-card">
 The latest CV is available as a PDF:
 
-- [Download PDF CV](/assets/Jubilee_Tan_CV.pdf)
+- [Download PDF CV]({{ '/assets/Jubilee_Tan_CV.pdf' | relative_url }})
 </div>
 
 ## Profile Snapshot
