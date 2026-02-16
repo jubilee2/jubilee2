@@ -28,6 +28,37 @@ I build usable, maintainable data products and workflows that translate research
 - **VUMC / CQS (2015–2021):** Associate Application Developer
 - **Hydro-Science and Technology Research Center (2011–2014):** Hydrology Engineer and Project Manager
 
+## Career Timeline
+
+<div class="timeline" role="list" aria-label="Career timeline">
+  <article class="timeline__item" role="listitem">
+    <span class="timeline__icon" aria-hidden="true">🌊</span>
+    <div class="timeline__content">
+      <p class="timeline__period">2011–2014</p>
+      <h3>Early Career: Hydrology and Flood Planning</h3>
+      <p>Built technical foundations in hydraulic modeling, flood planning, and environmental data analysis.</p>
+    </div>
+  </article>
+
+  <article class="timeline__item" role="listitem">
+    <span class="timeline__icon" aria-hidden="true">💻</span>
+    <div class="timeline__content">
+      <p class="timeline__period">2015 onward</p>
+      <h3>Web Application Development</h3>
+      <p>Shifted into full-stack web application development, delivering operational tools and integrations for healthcare and research workflows.</p>
+    </div>
+  </article>
+
+  <article class="timeline__item" role="listitem">
+    <span class="timeline__icon" aria-hidden="true">🏥</span>
+    <div class="timeline__content">
+      <p class="timeline__period">Current Focus</p>
+      <h3>Cohort EHR Dataset Pulls</h3>
+      <p>Designs and supports reproducible EHR cohort extraction pipelines for research teams, with emphasis on quality control, validation, and delivery reliability.</p>
+    </div>
+  </article>
+</div>
+
 ## Technical Stack
 
 - **Languages:** Python, SQL, JavaScript, R, Ruby, Perl
