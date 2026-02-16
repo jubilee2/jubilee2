@@ -36,7 +36,7 @@ I build usable, maintainable data products and workflows that translate research
     <div class="timeline__content">
       <p class="timeline__period">2011–2014</p>
       <h3>Early Career: Hydrology and Flood Planning</h3>
-      <p>Built technical foundations in hydraulic modeling, flood planning, and environmental data analysis.</p>
+      <p>Built technical foundations in hydraulic modeling, flood planning, and environmental data analysis, including <strong>GPU</strong>/<strong>CUDA</strong>-accelerated simulation workflows.</p>
     </div>
   </article>
 
