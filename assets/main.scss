@@ -276,6 +276,118 @@ table th {
   margin-bottom: 0.2rem;
 }
 
+
+.timeline {
+  --timeline-accent: var(--brand-teal);
+  --timeline-line: #c9dced;
+  position: relative;
+  margin: 0.9rem 0 0.5rem;
+  padding: 0.15rem 0 0.15rem 0.2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 1.05rem;
+  top: 0.6rem;
+  bottom: 0.7rem;
+  width: 2px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #9ec6e6 0%, #5cb7b7 55%, #9ec6e6 100%);
+  background-size: 100% 200%;
+  animation: timeline-flow 8s ease-in-out infinite;
+}
+
+.timeline__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.1rem 1fr;
+  column-gap: 0.8rem;
+  margin: 0 0 1rem;
+}
+
+.timeline__item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline__icon {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background: #edf7ff;
+  border: 2px solid #c7dff2;
+  box-shadow: 0 0 0 3px #ffffff;
+  z-index: 1;
+  transform: translateX(-0.05rem);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.timeline__content {
+  border: 1px solid #d8e5f1;
+  border-radius: 10px;
+  background: #fbfdff;
+  padding: 0.55rem 0.75rem 0.65rem;
+  box-shadow: 0 2px 10px rgba(21, 59, 99, 0.04);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.timeline__period {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1f5f98;
+}
+
+.timeline__item h3 {
+  margin: 0.15rem 0 0.2rem;
+  font-size: 1.02rem;
+}
+
+.timeline__item p {
+  margin: 0;
+}
+
+.timeline__item:hover .timeline__content,
+.timeline__item:focus-within .timeline__content {
+  transform: translateY(-1px);
+  border-color: #b8d3e8;
+  box-shadow: 0 7px 16px rgba(21, 59, 99, 0.09);
+}
+
+.timeline__item:hover .timeline__icon,
+.timeline__item:focus-within .timeline__icon {
+  transform: translateX(-0.05rem) scale(1.04);
+  border-color: #98c4e2;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 7px rgba(11, 143, 143, 0.14);
+}
+
+@keyframes timeline-flow {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline::before {
+    animation: none;
+  }
+
+  .timeline__icon,
+  .timeline__content {
+    transition: none;
+  }
+}
+
 @media (max-width: 980px) {
   .home-card-grid {
     grid-template-columns: 1fr;
